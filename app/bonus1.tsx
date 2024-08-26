@@ -83,14 +83,6 @@ export default function App() {
               <button type="submit">New</button>
             </Form>
           </div>
-          <div>
-            <Form method="get">
-              <button><a target="_blank" href="./bonus1">Bonus</a></button>
-            </Form>
-            <Form method="get">
-              <button><a target="_blank" href="./bonus2">Bonus</a></button>
-            </Form>
-          </div>
           <nav>
           {contacts.length ? (
               <ul>
