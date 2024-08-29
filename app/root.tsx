@@ -84,11 +84,14 @@ export default function App() {
             </Form>
           </div>
           <div>
-            <Form method="get">
-              <button><a target="_blank" href="./bonus1">Bonus</a></button>
+            <Form method="post">
+              <button> <a href="http://localhost:5173/">Home</a></button>
             </Form>
-            <Form method="get">
-              <button><a target="_blank" href="./bonus2">Bonus</a></button>
+            <Form method="post">
+              <button> <a href="/info">Info</a></button>
+            </Form>
+            <Form method="post">
+              <button> <a href="/newdata">Data</a></button>
             </Form>
           </div>
           <nav>
